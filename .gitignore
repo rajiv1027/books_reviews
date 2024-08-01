@@ -14,7 +14,7 @@ __pycache__/
 *.env
 
 # Django migrations
-**/migrations/*
+env/migrations/*
 
 # Environment variables
 .env
