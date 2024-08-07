@@ -6,7 +6,7 @@ FROM python:3.10
 # Set environment variables
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED 1
-ENV DJANGO_SETTINGS_MODULE jktech_service.settings
+ENV DJANGO_SETTINGS_MODULE jktech.settings
 
 # Create and set the working directory
 WORKDIR /app
