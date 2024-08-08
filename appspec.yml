@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu/jktech
+    destination: /home/ubuntu/books_reviews
 permissions:
-  - object: /home/ubuntu/jktech
+  - object: /home/ubuntu/books_reviews
     owner: ubuntu
     group: ubuntu
 hooks:
