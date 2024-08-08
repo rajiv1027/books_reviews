@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-sed -i 's/\[]/\["3.87.108.126"]/' /home/ubuntu/jktech/jktech/settings.py
+sed -i 's/\[]/\["3.87.108.126"]/' /home/ubuntu/jktech/jktech_app/settings.py
 
 python manage.py migrate
 python manage.py makemigrations
