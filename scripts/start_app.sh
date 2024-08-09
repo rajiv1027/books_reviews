@@ -1,5 +1,7 @@
 #!/usr/bin/bash
 
+source /home/ubuntu/env/bin/activate
+
 sed -i 's/\[]/\["52.23.220.101"]/' /home/ubuntu/books_reviews/jktech/settings.py
 
 python manage.py migrate
