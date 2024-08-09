@@ -2,7 +2,7 @@
 Description=gunicorn socket
 
 [Socket]
-ListenStream=/home/ubuntu/books_reviews/jktech/jktech.sock
+ListenStream=/home/ubuntu/books_reviews/jktech_app/jktech_app.sock
 
 [Install]
 WantedBy=sockets.target
