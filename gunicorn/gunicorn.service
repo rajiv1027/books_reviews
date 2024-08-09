@@ -6,7 +6,7 @@ After=network.target
 User=ubuntu
 Group=www-data
 WorkingDirectory=/home/ubuntu/books_reviews
-ExecStart=/home/ubuntu/env/bin/gunicorn --access-logfile - --workers 3 --bind unix:/home/ubuntu/books_reviews/gunicorn/jktech.sock jktech.wsgi:application
+ExecStart=/home/ubuntu/env/bin/gunicorn --access-logfile - --workers 3 --bind unix:/home/ubuntu/books_reviews/jktech/jktech.sock jktech.wsgi:application
 
 
 [Install]
